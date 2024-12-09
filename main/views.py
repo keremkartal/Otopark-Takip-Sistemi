@@ -7,7 +7,7 @@ from django.db.models import F
 import sqlite3
 from datetime import datetime
 
-@login_required()
+
 
 def redirect_to_login(request):
     if request.user.is_authenticated: 
